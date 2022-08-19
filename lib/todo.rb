@@ -1,9 +1,9 @@
 class Todo
     def initialize(task)
-      #...
+      @task = task
     end
   
     def task
-      # Returns task as a string
+      @task
     end
 end
